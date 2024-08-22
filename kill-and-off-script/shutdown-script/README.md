@@ -36,14 +36,14 @@ go build -o system-manager
 ```
 The executable will automatically detect your operating system and execute the appropriate actions.
 
-##Files
+## Files
 - *main.go*: Contains the main logic to detect the operating system and call the respective functions.
 - *linux.go*: Implements window closing and shutdown functions for Linux.
 - *macos.go*: Implements window closing and shutdown functions for macOS.
 - *windows.go*: Implements window closing and shutdown functions for Windows.
 
-##Contributing
+## Contributing
 Feel free to contribute by submitting issues or pull requests.
 
-##License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
