@@ -1,6 +1,6 @@
-# System Window Manager
+# Kill and Off Script
 
-A Go project to close all open windows and shut down the system across different operating systems. The project supports Windows, macOS, and Linux.
+A Go project to kills all open windows and shut down the system across different operating systems. The project supports Windows, macOS, and Linux.
 
 ## Overview
 
