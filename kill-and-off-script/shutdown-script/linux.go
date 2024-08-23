@@ -15,13 +15,9 @@ func closeLinux() {
 		return
 	}
 
-	// Close each window
 	for _, line := range strings.Split(string(output), "\n") {
 		if len(line) > 0 {
-			// Extract window ID from line
 			windowID := strings.Fields(line)[0]
-
-			// Close window
 			cmd := exec.Command("wmctrl", "-i", "-c", windowID)
 			err := cmd.Run()
 			if err != nil {
